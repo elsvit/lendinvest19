@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.loans-page {
+
+  .loans-amount {
+    color: $red;
+  }
+  .loan-row {
+    margin-bottom: 1rem;
+    padding: .5rem;
+    cursor: pointer;
+
+    .loan-title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      font-weight: 500;
+      width: 100%;
+    }
+  }
+
+}
+
